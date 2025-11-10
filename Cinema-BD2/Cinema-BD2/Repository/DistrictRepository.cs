@@ -11,26 +11,31 @@ namespace Cinema_BD2.Repository
         {
             _cinemaContext = cinemaContext;
         }
+
         public async Task Create(District district)
         {
             await _cinemaContext.Districts.AddAsync(district);
             await _cinemaContext.SaveChangesAsync();
         }
+
         public async Task Delete(District district)
         {
             _cinemaContext.Districts.Remove(district);
             await _cinemaContext.SaveChangesAsync();
         }
+
         public async Task<List<District>> GetAll()
         {
             return await _cinemaContext.Districts.ToListAsync();
         }
+
         public async Task<District?> GetById(int id)
         {
             return await _cinemaContext.Districts
                 .Where(d => d.Id == id)
                 .FirstOrDefaultAsync();
         }
+
         public async Task<List<District?>> GetByName(string name)
         {
             return await _cinemaContext.Districts
@@ -38,6 +43,7 @@ namespace Cinema_BD2.Repository
                 .ToListAsync();
 
         }
+
         public async Task Update(District district)
         {
             _cinemaContext.Districts.Update(district);

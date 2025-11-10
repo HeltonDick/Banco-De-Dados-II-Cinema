@@ -17,8 +17,14 @@ namespace Cinema_BD2.Data
         public DbSet<Role> Roles { get; set; }
         public DbSet<Studio> Studios { get; set; }
         public DbSet<TypeOfRoom> TypeOfRooms { get; set; }
+        public DbSet<Classification> Classifications { get; set; }
         // No relational tables //
 
+        // More complicated entities with relationships //
+        public DbSet<Person> People { get; set; }
+        public DbSet<Address> Addresses { get; set; }
+        public DbSet<Street> Streets { get; set; }
+        public DbSet<Film> Films { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -30,7 +36,14 @@ namespace Cinema_BD2.Data
             modelBuilder.Entity<Role>().ToTable("Role");
             modelBuilder.Entity<Studio>().ToTable("Studio");
             modelBuilder.Entity<TypeOfRoom>().ToTable("TypeOfRoom");
+            modelBuilder.Entity<Classification>().ToTable("Classification");
             // No relational tables //
+
+            // More complicated entities with relationships //
+            modelBuilder.Entity<Person>().ToTable("Person");
+            modelBuilder.Entity<Address>().ToTable("Address");
+            modelBuilder.Entity<Street>().ToTable("Street");
+            modelBuilder.Entity<Film>().ToTable("Film");
 
 
         }

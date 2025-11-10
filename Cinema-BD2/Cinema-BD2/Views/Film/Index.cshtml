@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Cinema_BD2.Models.Film>
+
+@{
+    ViewData["Title"] = "Films";
+}
+
+<h2>Films</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Original Title</th>
+            <th>Duration</th>
+            <th>Classification</th>
+            <th>Genres</th>
+            <th>Studios</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var film in Model)
+        {
+            <tr>
+                <td>@film.Title</td>
+                <td>@film.OriginalTitle</td>
+                <td>@film.Duration</td>
+                <td>@film.Classification?.MinAge</td>
+                <td>@string.Join(", ", film.FilmGenres.Select(fg => fg.Genre.Name))</td>
+                <td>@string.Join(", ", film.FilmStudios.Select(fs => fs.Studio.Name))</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@film.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@film.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-sm btn-danger"
+                                onclick="return confirm('Tem certeza que deseja excluir este filme?');">
+                            Delete
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

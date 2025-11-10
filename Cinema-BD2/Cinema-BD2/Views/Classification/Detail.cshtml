@@ -1,0 +1,22 @@
+﻿@model Cinema_BD2.Models.Classification
+
+@{
+    ViewData["Title"] = "Detalhes da classificação";
+}
+
+<h1 class="mt-3">Detalhes da classificação</h1>
+
+<div class="border rounded p-3 mt-3">
+    <dl class="row">
+        <dt class="col-sm-2">ID</dt>
+        <dd class="col-sm-10">@Model.Id</dd>
+
+        <dt class="col-sm-2">Nome</dt>
+        <dd class="col-sm-10">@Model.MinAge</dd>
+    </dl>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+</div>

@@ -1,0 +1,74 @@
+﻿@model Cinema_BD2.Models.Person
+
+@{
+    ViewData["Title"] = "Cadastrar Pessoa";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Cpf"></label>
+        <input asp-for="Cpf" class="form-control" />
+        <span asp-validation-for="Cpf" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BirthDate"></label>
+        <input asp-for="BirthDate" type="date" class="form-control" />
+        <span asp-validation-for="BirthDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Contact"></label>
+        <input asp-for="Contact" id="telefone" class="form-control" />
+        <span asp-validation-for="Contact" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="GenderId">Sexo</label>
+        <select asp-for="GenderId" asp-items="@(new SelectList(ViewBag.Sexos, "Id", "Nome"))" class="form-control">
+            <option value="">Selecione...</option>
+        </select>
+        <span asp-validation-for="GenderId" class="text-danger"></span>
+    </div>
+
+    <h4>Endereço</h4>
+    <div class="form-group">
+        <label>Logradouro</label>
+        <input name="Logradouro" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Número</label>
+        <input name="Numero" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Referência</label>
+        <input name="Referencia" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>CEP</label>
+        <input name="Cep" class="form-control" placeholder="00000-000" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Salvar</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById('telefone').addEventListener('input', function (e) {
+            let v = e.target.value.replace(/\D/g, '');
+            if (v.length > 0) v = '+55 (' + v.substring(0, 2) + ') ' + v.substring(2, 7) + '-' + v.substring(7, 11);
+            e.target.value = v;
+        });
+    </script>
+}
