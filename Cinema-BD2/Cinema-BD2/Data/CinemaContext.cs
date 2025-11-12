@@ -25,6 +25,9 @@ namespace Cinema_BD2.Data
         public DbSet<Address> Addresses { get; set; }
         public DbSet<Street> Streets { get; set; }
         public DbSet<Film> Films { get; set; }
+        public DbSet<Room> Rooms { get; set; }
+        public DbSet<RoomOfCinema> RoomOfCinemas { get; set; }
+        public DbSet<PersonRole> PersonRoles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -44,8 +47,9 @@ namespace Cinema_BD2.Data
             modelBuilder.Entity<Address>().ToTable("Address");
             modelBuilder.Entity<Street>().ToTable("Street");
             modelBuilder.Entity<Film>().ToTable("Film");
-
-
+            modelBuilder.Entity<Room>().ToTable("Room");
+            modelBuilder.Entity<RoomOfCinema>().ToTable("RoomOfCinema");
+            modelBuilder.Entity<PersonRole>().ToTable("PersonRole");
         }
     }
 }

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Cinema_BD2.Models.PersonRole>
+
+@{
+    ViewData["Title"] = "Vínculos Pessoa-Função";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary mb-3">Novo Vínculo</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Pessoa</th>
+            <th>Função</th>
+            <th>Data de Entrada</th>
+            <th>Data de Saída</th>
+            <th style="width:150px;">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Person?.Name</td>
+                <td>@item.Role?.Name</td>
+                <td>@item.SignDate.ToShortDateString()</td>
+                <td>@(item.CancelDate?.ToShortDateString() ?? "-")</td>
+                <td class="text-center">
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Editar</a>
+
+                    <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-sm btn-danger"
+                                onclick="return confirm('Tem certeza que deseja excluir este vínculo?');">
+                            Excluir
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,16 @@
+﻿@model Cinema_BD2.Models.PersonRole
+
+<h2>Excluir Vínculo</h2>
+
+<div>
+    <p><strong>Pessoa:</strong> @Model.Person?.Name</p>
+    <p><strong>Função:</strong> @Model.Role?.Name</p>
+    <p><strong>Data de Entrada:</strong> @Model.SignDate.ToShortDateString()</p>
+    <p><strong>Data de Saída:</strong> @(Model.CancelDate?.ToShortDateString() ?? "-")</p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Excluir</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

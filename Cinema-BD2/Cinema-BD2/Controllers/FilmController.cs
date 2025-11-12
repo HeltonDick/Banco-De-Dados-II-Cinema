@@ -95,10 +95,13 @@ namespace Cinema_BD2.Controllers
                 ClassificationId = film.ClassificationId,
                 SelectedGenreIds = film.FilmGenres.Select(fg => fg.GenreId).ToList(),
                 SelectedStudioIds = film.FilmStudios.Select(fs => fs.StudioId).ToList(),
+
                 Classifications = (await _classificationRepository.GetAll())
                     .Select(c => new SelectListItem { Value = c.Id.ToString(), Text = c.MinAge.ToString() }),
+
                 Genres = (await _genreRepository.GetAll())
                     .Select(g => new SelectListItem { Value = g.Id.ToString(), Text = g.Name }),
+
                 Studios = (await _studioRepository.GetAll())
                     .Select(s => new SelectListItem { Value = s.Id.ToString(), Text = s.Name })
             };
@@ -114,10 +117,13 @@ namespace Cinema_BD2.Controllers
             {
                 viewModel.Classifications = (await _classificationRepository.GetAll())
                     .Select(c => new SelectListItem { Value = c.Id.ToString(), Text = c.MinAge.ToString() });
+
                 viewModel.Genres = (await _genreRepository.GetAll())
                     .Select(g => new SelectListItem { Value = g.Id.ToString(), Text = g.Name });
+
                 viewModel.Studios = (await _studioRepository.GetAll())
                     .Select(s => new SelectListItem { Value = s.Id.ToString(), Text = s.Name });
+
                 return View(viewModel);
             }
 
@@ -134,6 +140,16 @@ namespace Cinema_BD2.Controllers
             film.FilmStudios = viewModel.SelectedStudioIds.Select(id => new FilmStudio { FilmId = film.Id, StudioId = id }).ToList();
 
             await _filmRepository.Update(film);
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var film = await _filmRepository.GetById(id);
+            if (film == null) return NotFound();
+            await _filmRepository.Delete(film);
             return RedirectToAction(nameof(Index));
         }
     }

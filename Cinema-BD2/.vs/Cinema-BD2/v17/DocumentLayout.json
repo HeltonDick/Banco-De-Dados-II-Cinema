@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\views\\film\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\views\\film\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\views\\personrole\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\views\\personrole\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\views\\personrole\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\views\\personrole\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\views\\personrole\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\views\\personrole\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\models\\personrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\models\\personrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\controllers\\personrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\controllers\\personrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\repository\\personrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\repository\\personrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\repository\\ipersonrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\repository\\ipersonrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\repository\\iperosonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\repository\\iperosonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\data\\cinemacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\data\\cinemacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\models\\filmviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\models\\filmviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helto\\onedrive\\\u00E1rea de trabalho\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +46,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 515,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\PersonRole\\Create.cshtml",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Views\\PersonRole\\Create.cshtml",
+              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\PersonRole\\Create.cshtml",
+              "RelativeToolTip": "Cinema-BD2\\Views\\PersonRole\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T21:15:29.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\PersonRole\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Views\\PersonRole\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\PersonRole\\Edit.cshtml",
+              "RelativeToolTip": "Cinema-BD2\\Views\\PersonRole\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T21:13:08.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\PersonRole\\Index.cshtml",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Views\\PersonRole\\Index.cshtml",
+              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\PersonRole\\Index.cshtml",
+              "RelativeToolTip": "Cinema-BD2\\Views\\PersonRole\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T21:12:18.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPersonRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Repository\\IPersonRoleRepository.cs",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Repository\\IPersonRoleRepository.cs",
+              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Repository\\IPersonRoleRepository.cs",
+              "RelativeToolTip": "Cinema-BD2\\Repository\\IPersonRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T19:51:32.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonRoleController.cs",
+              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Controllers\\PersonRoleController.cs",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Controllers\\PersonRoleController.cs",
+              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Controllers\\PersonRoleController.cs",
+              "RelativeToolTip": "Cinema-BD2\\Controllers\\PersonRoleController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwE4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T20:43:30.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Repository\\PersonRoleRepository.cs",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Repository\\PersonRoleRepository.cs",
+              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Repository\\PersonRoleRepository.cs",
+              "RelativeToolTip": "Cinema-BD2\\Repository\\PersonRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T20:11:20.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonRole.cs",
+              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Models\\PersonRole.cs",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Models\\PersonRole.cs",
+              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Models\\PersonRole.cs",
+              "RelativeToolTip": "Cinema-BD2\\Models\\PersonRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T19:45:50.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPerosonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Repository\\IPerosonRepository.cs",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Repository\\IPerosonRepository.cs",
+              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Repository\\IPerosonRepository.cs",
+              "RelativeToolTip": "Cinema-BD2\\Repository\\IPerosonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T21:08:29.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CinemaContext.cs",
+              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Data\\CinemaContext.cs",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Data\\CinemaContext.cs",
+              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Data\\CinemaContext.cs",
+              "RelativeToolTip": "Cinema-BD2\\Data\\CinemaContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwDMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T20:16:42.746Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -43,71 +176,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\Film\\Index.cshtml",
-              "RelativeDocumentMoniker": "Cinema-BD2\\Views\\Film\\Index.cshtml",
-              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\Film\\Index.cshtml",
-              "RelativeToolTip": "Cinema-BD2\\Views\\Film\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-10T21:28:55.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CinemaContext.cs",
-              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Data\\CinemaContext.cs",
-              "RelativeDocumentMoniker": "Cinema-BD2\\Data\\CinemaContext.cs",
-              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Data\\CinemaContext.cs",
-              "RelativeToolTip": "Cinema-BD2\\Data\\CinemaContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T21:23:10.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FilmController.cs",
-              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Controllers\\FilmController.cs",
-              "RelativeDocumentMoniker": "Cinema-BD2\\Controllers\\FilmController.cs",
-              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Controllers\\FilmController.cs",
-              "RelativeToolTip": "Cinema-BD2\\Controllers\\FilmController.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAmwEQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T21:12:31.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FilmViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Models\\FilmViewModel.cs",
-              "RelativeDocumentMoniker": "Cinema-BD2\\Models\\FilmViewModel.cs",
-              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Models\\FilmViewModel.cs",
-              "RelativeToolTip": "Cinema-BD2\\Models\\FilmViewModel.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCMAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T21:08:18.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Film.cs",
-              "DocumentMoniker": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Models\\Film.cs",
-              "RelativeDocumentMoniker": "Cinema-BD2\\Models\\Film.cs",
-              "ToolTip": "C:\\Users\\helto\\OneDrive\\\u00C1rea de Trabalho\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Models\\Film.cs",
-              "RelativeToolTip": "Cinema-BD2\\Models\\Film.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T02:31:53.305Z",
-              "EditorCaption": ""
             }
           ]
         }
