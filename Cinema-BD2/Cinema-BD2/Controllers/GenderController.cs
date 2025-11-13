@@ -42,7 +42,7 @@ namespace Cinema_BD2.Controllers
             return View(gender);
         }
 
-        // Edit a district (Shows the form for edit)
+        // Edit a Gender (Shows the form for edit)
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {

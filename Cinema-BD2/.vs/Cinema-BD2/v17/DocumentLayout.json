@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\427603\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\",
+  "WorkspaceRootPath": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\427603\\desktop\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\views\\district\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\views\\district\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helton dick\\desktop\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\427603\\desktop\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\views\\gender\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\views\\gender\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helton dick\\desktop\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\427603\\desktop\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\views\\gender\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\views\\gender\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helton dick\\desktop\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\427603\\desktop\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\views\\district\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\views\\district\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helton dick\\desktop\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\repository\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\repository\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helton dick\\desktop\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helton dick\\desktop\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|c:\\users\\helton dick\\desktop\\banco-de-dados-ii-cinema\\cinema-bd2\\cinema-bd2\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D411F95-B9C4-4046-8240-C8E27F58A138}|Cinema-BD2\\Cinema-BD2.csproj|solutionrelative:cinema-bd2\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,47 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 515,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\427603\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\Gender\\Index.cshtml",
-              "RelativeDocumentMoniker": "Cinema-BD2\\Views\\Gender\\Index.cshtml",
-              "ToolTip": "C:\\Users\\427603\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\Gender\\Index.cshtml",
-              "RelativeToolTip": "Cinema-BD2\\Views\\Gender\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T00:49:54.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\427603\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\District\\Index.cshtml",
-              "RelativeDocumentMoniker": "Cinema-BD2\\Views\\District\\Index.cshtml",
-              "ToolTip": "C:\\Users\\427603\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\District\\Index.cshtml",
-              "RelativeToolTip": "Cinema-BD2\\Views\\District\\Index.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T00:49:50.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\427603\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\Gender\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Cinema-BD2\\Views\\Gender\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\427603\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\Gender\\Edit.cshtml",
-              "RelativeToolTip": "Cinema-BD2\\Views\\Gender\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T00:44:59.566Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -81,15 +54,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Cinema-BD2\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:28:01.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Models\\Role.cs",
+              "RelativeToolTip": "Cinema-BD2\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:27:58.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Repository\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Repository\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Repository\\RoleRepository.cs",
+              "RelativeToolTip": "Cinema-BD2\\Repository\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:27:54.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\427603\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\District\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Cinema-BD2\\Views\\District\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\427603\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\District\\Edit.cshtml",
-              "RelativeToolTip": "Cinema-BD2\\Views\\District\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Repository\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Repository\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Repository\\IRoleRepository.cs",
+              "RelativeToolTip": "Cinema-BD2\\Repository\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:27:51.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Views\\Role\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "Cinema-BD2\\Views\\Role\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T00:45:38.934Z",
+              "WhenOpened": "2025-11-13T15:27:38.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\Role\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Views\\Role\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\Role\\Edit.cshtml",
+              "RelativeToolTip": "Cinema-BD2\\Views\\Role\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T15:27:37.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\Role\\Create.cshtml",
+              "RelativeDocumentMoniker": "Cinema-BD2\\Views\\Role\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Helton Dick\\Desktop\\Banco-De-Dados-II-Cinema\\Cinema-BD2\\Cinema-BD2\\Views\\Role\\Create.cshtml",
+              "RelativeToolTip": "Cinema-BD2\\Views\\Role\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T15:27:36.475Z",
               "EditorCaption": ""
             }
           ]

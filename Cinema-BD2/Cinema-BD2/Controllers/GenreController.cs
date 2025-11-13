@@ -2,6 +2,7 @@
 using Cinema_BD2.Repository;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace Cinema_BD2.Controllers
 {
@@ -15,9 +16,9 @@ namespace Cinema_BD2.Controllers
 
         // List's all genres
         [HttpGet]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var genres = _genreRepository.GetAll();
+            var genres = await _genreRepository.GetAll();
             return View(genres);
         }
 
@@ -41,7 +42,7 @@ namespace Cinema_BD2.Controllers
             return View(genre);
         }
 
-        // Edit a district (Shows the form for edit)
+        // Edit a genre (Shows the form for edit)
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {

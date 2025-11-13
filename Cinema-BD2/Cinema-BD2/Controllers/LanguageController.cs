@@ -2,6 +2,7 @@
 using Cinema_BD2.Repository;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace Cinema_BD2.Controllers
 {
@@ -15,9 +16,9 @@ namespace Cinema_BD2.Controllers
 
         // List's all languages
         [HttpGet]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var languages = _languageRepository.GetAll();
+            var languages = await _languageRepository.GetAll();
             return View(languages);
         }
 

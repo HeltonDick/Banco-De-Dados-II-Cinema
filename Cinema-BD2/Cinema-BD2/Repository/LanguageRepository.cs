@@ -38,7 +38,7 @@ namespace Cinema_BD2.Repository
         public async Task<List<Language?>> GetByName(string name)
         {
             return await _cinemaContext.Languages
-                .Where(w => w.Name!.ToLower() == name.ToLower())
+                .Where(w => w.Name!.ToLower().Contains(name.ToLower()))
                 .ToListAsync();
         }
 
