@@ -1,6 +1,7 @@
 ﻿using Cinema_BD2.Data;
 using Cinema_BD2.Models;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel;
 
 namespace Cinema_BD2.Repository
 {
@@ -38,7 +39,7 @@ namespace Cinema_BD2.Repository
         public async Task<List<Gender?>> GetByName(string name)
         {
             return await _cinemaContext.Genders
-                .Where(w => w.Name!.ToLower() == name.ToLower())
+                .Where(w => w.Name!.ToLower().Contains(name.ToLower()))
                 .ToListAsync();
         }
 

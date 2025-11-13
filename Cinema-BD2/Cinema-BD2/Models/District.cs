@@ -7,9 +7,9 @@ namespace Cinema_BD2.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Insira o nome do Bairro")]
         [StringLength(100)]
-        public string? Name { get; set; } = string.Empty;
+        public string? Name { get; set; }
         public ICollection<Address>? Addresses  { get; set; }
     }
 }

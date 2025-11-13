@@ -7,11 +7,11 @@ namespace Cinema_BD2.Models
         [Key]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "O número é obrigatório.")]
+        [Required(ErrorMessage = "O número do local é obrigatório.")]
         [StringLength(10)]
         public string Number { get; set; } = string.Empty;
 
-        [Required]
+        [Required(ErrorMessage = "O Logradouro é obrigatorio")]
         [StringLength(100)]
         public string Logradouro { get; set; } = string.Empty;
 

@@ -2,6 +2,7 @@
 using Cinema_BD2.Repository;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace Cinema_BD2.Controllers
 {
@@ -15,9 +16,9 @@ namespace Cinema_BD2.Controllers
 
         // List's all Genders
         [HttpGet]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var genders = _genderRepository.GetAll();
+            var genders = await _genderRepository.GetAll();
             return View(genders);
         }
 

@@ -39,7 +39,7 @@ namespace Cinema_BD2.Repository
         public async Task<List<District?>> GetByName(string name)
         {
             return await _cinemaContext.Districts
-                .Where(w => w.Name!.ToLower() == name.ToLower())
+                .Where(w => w.Name!.ToLower().Contains(name.ToLower()))
                 .ToListAsync();
 
         }

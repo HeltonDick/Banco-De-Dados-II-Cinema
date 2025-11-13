@@ -7,7 +7,7 @@ namespace Cinema_BD2.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Insira Uma idade minima")]
         [StringLength(100)]
         public int MinAge { get; set; }
     }

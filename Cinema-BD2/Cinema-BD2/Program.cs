@@ -21,6 +21,17 @@ builder.Services.AddScoped<ILanguageRepository, LanguageRepository>();
 builder.Services.AddScoped<IGenderRepository, GenderRepository>();
 builder.Services.AddScoped<IGenreRepository, GenreRepository>();
 builder.Services.AddScoped<IStudioRepository, StudioRepository>();
+builder.Services.AddScoped<IFilmRepository, FilmRepository>();
+builder.Services.AddScoped<IRoomRepository, RoomRepository>();
+builder.Services.AddScoped<IAddressRepository, AddressRepository>();
+builder.Services.AddScoped<IClassificationRepository, ClassificationRepository>();
+builder.Services.AddScoped<IPerosonRepository, PersonRepository>();
+builder.Services.AddScoped<IPersonRoleRepository, PersonRoleRepository>();
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+builder.Services.AddScoped<IRoomOfCinemaRepository, RoomOfCinemaRepository>();
+builder.Services.AddScoped<IStudioRepository, StudioRepository>();
+builder.Services.AddScoped<ITypeOfRoomRepository, TypeOfRoomRepository>();
+
 
 // End Repository Dependency Injection //
 

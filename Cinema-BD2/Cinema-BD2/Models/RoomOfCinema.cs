@@ -8,8 +8,6 @@ namespace Cinema_BD2.Models
         [Key]
         public int Id { get; set; }
 
-        public string? Name { get; set; }
-
         [Required(ErrorMessage = "O campo 'Disponibilidade' é obrigatório.")]
         public bool disponibility { get; set; }
 

@@ -21,7 +21,7 @@ namespace Cinema_BD2.Models
         [CustomValidation(typeof(Person), nameof(ValidateBirthDate))]
         public DateTime BirthDate { get; set; }
 
-        [Required(ErrorMessage = "O contato é obrigatório.")]
+        [Required(ErrorMessage = "O número de contato é obrigatório.")]
         [Display(Name = "Contato")]
         [RegularExpression(@"^\+55\s\(\d{2}\)\s\d{4,5}\-\d{4}$", ErrorMessage = "Telefone inválido. Formato: +55 (49) 99999-9999")]
         public string Contact { get; set; } = string.Empty;
